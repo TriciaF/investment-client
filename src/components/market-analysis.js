@@ -21,7 +21,7 @@ export class MarketAnalysis extends React.Component {
     render () {    
         
         let marketRecap;
-        
+       console.log('this is the risks = ', this.props.risks) 
         if(this.props.risks !== null) {
           marketRecap = (
             <section className='vector-wrapper market-width'>

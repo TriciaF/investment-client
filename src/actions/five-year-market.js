@@ -34,6 +34,7 @@ export const fetchRiskMarket = () => (dispatch, getState) => {
             return res.json()
         })
         .then(data => {
+            console.log('fetch risk market data = ', data)
             dispatch(fetchRiskMarketSuccess(data))
         })
         .catch(err => 

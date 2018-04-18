@@ -45,6 +45,7 @@ export class InvestmentReturn extends React.Component {
         }
 
         if (portfolio) {
+          console.log('this is the portfolio', portfolio)
             let previousFundFormat = numeral(previousFund).format('0,0');
             let currentFundFormat = numeral(currentFund).format('0,0');
 
