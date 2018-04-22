@@ -6,7 +6,7 @@
 - [Application Links](#Link-to-Deployed-Application)
 - [Application Release version](#Release-Version)
 - [Tech Resources used in this application](#Tech-Stack)
-- [Server side REST API description](#Server-REST API)
+- [Server side REST API description](#Server-REST-API)
 - [Client component description](#Client-Components)
 - [Defects](#Defects)
 - [Defects fixed in this release](#Defects-Fixed)
@@ -26,9 +26,9 @@ v1.0.0
 
 # Screenshots
 
-![alt text](/public/centsible2.png?raw=true "investment selection")
+![alt text](/public/centsible2.PNG?raw=true "investment selection")
 
-![alt text](/public/centsible3.jpg?raw=true "investment graph")
+![alt text](/public/centsible3.JPG?raw=true "investment graph")
 
 # Tech Stack
 
@@ -39,7 +39,7 @@ v1.0.0
 * Travis CI, Netlify, and Heroku for CICD
 * Front End: HTML, CSS, JavaScript, React, Redux
 
-# Server - REST API
+# Server-REST-API
 
 * User Router:
   *  POST - /api/users
