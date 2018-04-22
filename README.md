@@ -18,7 +18,7 @@ Centible is an investment learning tool, which allows users to experiment with i
 
 # Link to Deployed Application 
 
-Client:  https://nifty-bartik-6de922.netlify.com/
+Client:  https://centsible.netlify.com/
 Server:  https://teamthree-server.herokuapp.com
 
 # Release Version
