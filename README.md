@@ -1,36 +1,36 @@
-##CENTSIBLE - The investment learning app
+## CENTSIBLE - The investment learning app
 
 ## Table of Contents
 
 - [Project Description](#Product-Description)
 - [Application Links](#Link-to-Deployed-Application)
-- [Application Release version](#Release Version)
-- [User Guide](#User Guide)
+- [Application Release version](#Release-Version)
 - [Tech Resources used in this application](#Tech-Stack)
-- [Server side REST API description](#Server- REST API)
-- [Client component description](#Client - Components)
+- [Server side REST API description](#Server-REST API)
+- [Client component description](#Client-Components)
 - [Defects](#Defects)
-- [Defects fixed in this release](#Defects Fixed)
+- [Defects fixed in this release](#Defects-Fixed)
 
 
 
-#Project Description
+# Project Description
 Centible is an investment learning tool, which allows users to experiment with investing in low to high risk funds.  Users learn how a mix of stocks and bonds define a strategy as low, moderate or high.  Based on this information, users select an investment strategy for year 1 through 5 and are able to see how their investments (gain/losses) compare with real market data over the same period.  Throughout the application, users are provided with textual descriptions and graphs which depict their investment selections and resulting data.  
 
-#Link to Deployed Application 
+# Link to Deployed Application 
 
 Client:  https://nifty-bartik-6de922.netlify.com/
 Server:  https://teamthree-server.herokuapp.com
-MongoDb-production: mongodb://Jc:Asdfasdf1@ds123919.mlab.com:23919/teamthree
-MongoDb-test: mongodb://Jc:Asdfasdf1@ds123919.mlab.com:23919/teamthree-test
 
 # Release Version
 v1.0.0
 
-# User Guide
-User Guide Location:  Not yet available
+# Screenshots
 
-#Tech Stack
+![alt text](/public/centsible2.png?raw=true "investment selection")
+
+![alt text](/public/centsible3.jpg?raw=true "investment graph")
+
+# Tech Stack
 
 * Node.js
 * Express.js
@@ -39,7 +39,7 @@ User Guide Location:  Not yet available
 * Travis CI, Netlify, and Heroku for CICD
 * Front End: HTML, CSS, JavaScript, React, Redux
 
-#Server - REST API
+# Server - REST API
 
 * User Router:
   *  POST - /api/users
@@ -85,7 +85,7 @@ User Guide Location:  Not yet available
         Required Fields: none
 
 
-#Client - Components
+# Client - Components
 
 * App
     Purpose: Start of application
